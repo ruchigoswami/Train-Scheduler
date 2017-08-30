@@ -29,7 +29,7 @@ var config = {
 	}
 
 	// Uploads train data to the database
-	trainData.push(newTrain);
+	database.ref().push(newTrain);
 
 	// Logs everything to console
 	console.log(newTrain.name);
